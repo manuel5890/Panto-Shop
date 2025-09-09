@@ -22,8 +22,8 @@ p,a,button,li,label,input,select,textarea,span{
     --white-color: #fff;
     --dark-color: #1e1e1e;
     --fs-tittle1: 80px;
-    --fs-tittle2: 42px;
-    --fs-tittle3: 24px;
+    --fs-tittle2: 38px;
+    --fs-tittle3: 22px;
     --fs-tittle4: 18px;
     --fs-text: 16px;
 }
@@ -32,7 +32,7 @@ header{
     width: 100%;
     position: relative;
     height: 135vh;
-    background: url("../img/d2bee09011d0ef5c5aab59b69714774a45812d7d.jpg");
+    background: url("../img/Rectangle\ 1441.png");
     background-size: cover;
     /* background-position: center; */
     background-position-x: center;
@@ -139,6 +139,51 @@ header .bag-button .counter-products{
     top: 17%;
     right: 7%;
 }
+
+
+/* ESTILOS MAIN */
+
+#choosing-us{
+    width: 100%;
+    background: var(--white-color);
+    padding: 120px 0;
+    position: relative;
+}
+
+#choosing-us h2{
+    font-weight: 700;
+    font-size: var(--fs-tittle2);
+    color: var(--dark-color);
+    padding-top: 20px;
+}
+
+#choosing-us h3{
+    font-size: var(--fs-tittle3);
+    font-weight: 700;
+    color: var(--dark-color);
+}
+
+#choosing-us p{
+    font-size: var(--fs-text);
+    margin-top: 20px;
+    color: var(--dark-color);
+}
+
+#choosing-us a{
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+#choosing-us a i{
+    margin-left: 4px;
+    transition: .5s;
+}
+
+#choosing-us a:hover i{
+    margin-left: 15px;
+}
+
+
 
 /* 6. TABLET */
 /* estilos responsive tablet */
