@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Panto</title>
+    <!-- SLICK CSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="css/styles.css">
@@ -124,8 +128,8 @@
 
                     <div class="tab-content" id="myTabContent">
                         <div class="tab-pane fade show active" id="chair-pane" role="tabpanel" aria-labelledby="chair" tabindex="0">
-                            <div class="row">
-                                <div class="col-lg-3">
+                            <div class="slider-products">
+                                <div class="card-product">
                                     <div class="cont-img">
                                         <img src="img/sakarias-armchair-black-sporda-dark-gray__0729767_pe737131_s5_adobespark.png" alt="primera silla">
                                     </div>
@@ -139,13 +143,13 @@
                                             <i class="bi bi-star-fill"></i>
                                             <i class="bi bi-star-fill"></i>
                                         </div>
-                                        <div class="d-flex justify-content-between">
+                                        <div class="d-flex justify-content-between align-items-center">
                                             <h4><span>$</span>392</h4>
                                             <button><i class="bi bi-plus-lg"></i>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-3">
+                                <div class="card-product">
                                     <div class="cont-img">
                                         <img src="img/sakarias-armchair-black-sporda-dark-gray__0729767_pe737131_s5_adobespark (1).png" alt="primera silla">
                                     </div>
@@ -159,13 +163,13 @@
                                             <i class="bi bi-star-fill"></i>
                                             <i class="bi bi-star-fill"></i>
                                         </div>
-                                        <div class="d-flex justify-content-between">
+                                        <div class="d-flex justify-content-between align-items-center">
                                             <h4><span>$</span>299</h4>
                                             <button><i class="bi bi-plus-lg"></i>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-3">
+                                <div class="card-product">
                                     <div class="cont-img">
                                         <img src="img/sakarias-armchair-black-sporda-dark-gray__0729767_pe737131_s5_adobespark (2).png" alt="primera silla">
                                     </div>
@@ -179,13 +183,13 @@
                                             <i class="bi bi-star-fill"></i>
                                             <i class="bi bi-star-fill"></i>
                                         </div>
-                                        <div class="d-flex justify-content-between">
+                                        <div class="d-flex justify-content-between align-items-center">
                                             <h4><span>$</span>519</h4>
                                             <button><i class="bi bi-plus-lg"></i>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-3">
+                                <div class="card-product">
                                     <div class="cont-img">
                                         <img src="img/sakarias-armchair-black-sporda-dark-gray__0729767_pe737131_s5_adobespark (3).png" alt="primera silla">
                                     </div>
@@ -199,26 +203,517 @@
                                             <i class="bi bi-star-fill"></i>
                                             <i class="bi bi-star-fill"></i>
                                         </div>
-                                        <div class="d-flex justify-content-between">
+                                        <div class="d-flex justify-content-between align-items-center">
                                             <h4><span>$</span>921</h4>
                                             <button><i class="bi bi-plus-lg"></i>
                                         </div>
                                     </div>
-                                </div>                                                                                                
+                                </div>
+                                <div class="card-product">
+                                    <div class="cont-img">
+                                        <img src="img/sakarias-armchair-black-sporda-dark-gray__0729767_pe737131_s5_adobespark.png" alt="primera silla">
+                                    </div>
+                                    <div class="cont-info">
+                                        <p class="category">Chair</p>
+                                        <h3>Sakarias Armchair</h3>
+                                        <div class="stars">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                        </div>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <h4><span>$</span>392</h4>
+                                            <button><i class="bi bi-plus-lg"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-product">
+                                    <div class="cont-img">
+                                        <img src="img/sakarias-armchair-black-sporda-dark-gray__0729767_pe737131_s5_adobespark.png" alt="primera silla">
+                                    </div>
+                                    <div class="cont-info">
+                                        <p class="category">Chair</p>
+                                        <h3>Sakarias Armchair</h3>
+                                        <div class="stars">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                        </div>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <h4><span>$</span>392</h4>
+                                            <button><i class="bi bi-plus-lg"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-product">
+                                    <div class="cont-img">
+                                        <img src="img/sakarias-armchair-black-sporda-dark-gray__0729767_pe737131_s5_adobespark.png" alt="primera silla">
+                                    </div>
+                                    <div class="cont-info">
+                                        <p class="category">Chair</p>
+                                        <h3>Sakarias Armchair</h3>
+                                        <div class="stars">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                        </div>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <h4><span>$</span>392</h4>
+                                            <button><i class="bi bi-plus-lg"></i>
+                                        </div>
+                                    </div>
+                                </div>                                                                                                                                                                                                
                             </div>
-
-
-
                         </div>
-                        <div class="tab-pane fade" id="beds-pane" role="tabpanel" aria-labelledby="beds" tabindex="0">beds</div>
-                        <div class="tab-pane fade" id="sofa-pane" role="tabpanel" aria-labelledby="sofa" tabindex="0">sofa</div>
-                        <div class="tab-pane fade" id="lamp-pane" role="tabpanel" aria-labelledby="lamp" tabindex="0">lamp</div>
+                        <div class="tab-pane fade" id="beds-pane" role="tabpanel" aria-labelledby="beds" tabindex="0">
+                            <div class="slider-products">
+                                <div class="card-product">
+                                    <div class="cont-img">
+                                        <img src="img/sakarias-armchair-black-sporda-dark-gray__0729767_pe737131_s5_adobespark.png" alt="primera silla">
+                                    </div>
+                                    <div class="cont-info">
+                                        <p class="category">Chair</p>
+                                        <h3>Sakarias Armchair</h3>
+                                        <div class="stars">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                        </div>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <h4><span>$</span>392</h4>
+                                            <button><i class="bi bi-plus-lg"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-product">
+                                    <div class="cont-img">
+                                        <img src="img/sakarias-armchair-black-sporda-dark-gray__0729767_pe737131_s5_adobespark (1).png" alt="primera silla">
+                                    </div>
+                                    <div class="cont-info">
+                                        <p class="category">Chair</p>
+                                        <h3>Baltsar Chair</h3>
+                                        <div class="stars">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                        </div>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <h4><span>$</span>299</h4>
+                                            <button><i class="bi bi-plus-lg"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-product">
+                                    <div class="cont-img">
+                                        <img src="img/sakarias-armchair-black-sporda-dark-gray__0729767_pe737131_s5_adobespark (2).png" alt="primera silla">
+                                    </div>
+                                    <div class="cont-info">
+                                        <p class="category">Chair</p>
+                                        <h3>Anjay Chair</h3>
+                                        <div class="stars">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                        </div>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <h4><span>$</span>519</h4>
+                                            <button><i class="bi bi-plus-lg"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-product">
+                                    <div class="cont-img">
+                                        <img src="img/sakarias-armchair-black-sporda-dark-gray__0729767_pe737131_s5_adobespark (3).png" alt="primera silla">
+                                    </div>
+                                    <div class="cont-info">
+                                        <p class="category">Chair</p>
+                                        <h3>Nyantuy Chair</h3>
+                                        <div class="stars">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                        </div>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <h4><span>$</span>921</h4>
+                                            <button><i class="bi bi-plus-lg"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-product">
+                                    <div class="cont-img">
+                                        <img src="img/sakarias-armchair-black-sporda-dark-gray__0729767_pe737131_s5_adobespark.png" alt="primera silla">
+                                    </div>
+                                    <div class="cont-info">
+                                        <p class="category">Chair</p>
+                                        <h3>Sakarias Armchair</h3>
+                                        <div class="stars">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                        </div>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <h4><span>$</span>392</h4>
+                                            <button><i class="bi bi-plus-lg"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-product">
+                                    <div class="cont-img">
+                                        <img src="img/sakarias-armchair-black-sporda-dark-gray__0729767_pe737131_s5_adobespark.png" alt="primera silla">
+                                    </div>
+                                    <div class="cont-info">
+                                        <p class="category">Chair</p>
+                                        <h3>Sakarias Armchair</h3>
+                                        <div class="stars">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                        </div>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <h4><span>$</span>392</h4>
+                                            <button><i class="bi bi-plus-lg"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-product">
+                                    <div class="cont-img">
+                                        <img src="img/sakarias-armchair-black-sporda-dark-gray__0729767_pe737131_s5_adobespark.png" alt="primera silla">
+                                    </div>
+                                    <div class="cont-info">
+                                        <p class="category">Chair</p>
+                                        <h3>Sakarias Armchair</h3>
+                                        <div class="stars">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                        </div>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <h4><span>$</span>392</h4>
+                                            <button><i class="bi bi-plus-lg"></i>
+                                        </div>
+                                    </div>
+                                </div>                                                                                                                                                                                                
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="sofa-pane" role="tabpanel" aria-labelledby="sofa" tabindex="0">
+                            <div class="slider-products">
+                                <div class="card-product">
+                                    <div class="cont-img">
+                                        <img src="img/sakarias-armchair-black-sporda-dark-gray__0729767_pe737131_s5_adobespark.png" alt="primera silla">
+                                    </div>
+                                    <div class="cont-info">
+                                        <p class="category">Chair</p>
+                                        <h3>Sakarias Armchair</h3>
+                                        <div class="stars">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                        </div>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <h4><span>$</span>392</h4>
+                                            <button><i class="bi bi-plus-lg"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-product">
+                                    <div class="cont-img">
+                                        <img src="img/sakarias-armchair-black-sporda-dark-gray__0729767_pe737131_s5_adobespark (1).png" alt="primera silla">
+                                    </div>
+                                    <div class="cont-info">
+                                        <p class="category">Chair</p>
+                                        <h3>Baltsar Chair</h3>
+                                        <div class="stars">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                        </div>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <h4><span>$</span>299</h4>
+                                            <button><i class="bi bi-plus-lg"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-product">
+                                    <div class="cont-img">
+                                        <img src="img/sakarias-armchair-black-sporda-dark-gray__0729767_pe737131_s5_adobespark (2).png" alt="primera silla">
+                                    </div>
+                                    <div class="cont-info">
+                                        <p class="category">Chair</p>
+                                        <h3>Anjay Chair</h3>
+                                        <div class="stars">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                        </div>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <h4><span>$</span>519</h4>
+                                            <button><i class="bi bi-plus-lg"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-product">
+                                    <div class="cont-img">
+                                        <img src="img/sakarias-armchair-black-sporda-dark-gray__0729767_pe737131_s5_adobespark (3).png" alt="primera silla">
+                                    </div>
+                                    <div class="cont-info">
+                                        <p class="category">Chair</p>
+                                        <h3>Nyantuy Chair</h3>
+                                        <div class="stars">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                        </div>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <h4><span>$</span>921</h4>
+                                            <button><i class="bi bi-plus-lg"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-product">
+                                    <div class="cont-img">
+                                        <img src="img/sakarias-armchair-black-sporda-dark-gray__0729767_pe737131_s5_adobespark.png" alt="primera silla">
+                                    </div>
+                                    <div class="cont-info">
+                                        <p class="category">Chair</p>
+                                        <h3>Sakarias Armchair</h3>
+                                        <div class="stars">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                        </div>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <h4><span>$</span>392</h4>
+                                            <button><i class="bi bi-plus-lg"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-product">
+                                    <div class="cont-img">
+                                        <img src="img/sakarias-armchair-black-sporda-dark-gray__0729767_pe737131_s5_adobespark.png" alt="primera silla">
+                                    </div>
+                                    <div class="cont-info">
+                                        <p class="category">Chair</p>
+                                        <h3>Sakarias Armchair</h3>
+                                        <div class="stars">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                        </div>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <h4><span>$</span>392</h4>
+                                            <button><i class="bi bi-plus-lg"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-product">
+                                    <div class="cont-img">
+                                        <img src="img/sakarias-armchair-black-sporda-dark-gray__0729767_pe737131_s5_adobespark.png" alt="primera silla">
+                                    </div>
+                                    <div class="cont-info">
+                                        <p class="category">Chair</p>
+                                        <h3>Sakarias Armchair</h3>
+                                        <div class="stars">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                        </div>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <h4><span>$</span>392</h4>
+                                            <button><i class="bi bi-plus-lg"></i>
+                                        </div>
+                                    </div>
+                                </div>                                                                                                                                                                                                
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="lamp-pane" role="tabpanel" aria-labelledby="lamp" tabindex="0">
+                            <div class="slider-products">
+                                <div class="card-product">
+                                    <div class="cont-img">
+                                        <img src="img/sakarias-armchair-black-sporda-dark-gray__0729767_pe737131_s5_adobespark.png" alt="primera silla">
+                                    </div>
+                                    <div class="cont-info">
+                                        <p class="category">Chair</p>
+                                        <h3>Sakarias Armchair</h3>
+                                        <div class="stars">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                        </div>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <h4><span>$</span>392</h4>
+                                            <button><i class="bi bi-plus-lg"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-product">
+                                    <div class="cont-img">
+                                        <img src="img/sakarias-armchair-black-sporda-dark-gray__0729767_pe737131_s5_adobespark (1).png" alt="primera silla">
+                                    </div>
+                                    <div class="cont-info">
+                                        <p class="category">Chair</p>
+                                        <h3>Baltsar Chair</h3>
+                                        <div class="stars">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                        </div>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <h4><span>$</span>299</h4>
+                                            <button><i class="bi bi-plus-lg"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-product">
+                                    <div class="cont-img">
+                                        <img src="img/sakarias-armchair-black-sporda-dark-gray__0729767_pe737131_s5_adobespark (2).png" alt="primera silla">
+                                    </div>
+                                    <div class="cont-info">
+                                        <p class="category">Chair</p>
+                                        <h3>Anjay Chair</h3>
+                                        <div class="stars">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                        </div>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <h4><span>$</span>519</h4>
+                                            <button><i class="bi bi-plus-lg"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-product">
+                                    <div class="cont-img">
+                                        <img src="img/sakarias-armchair-black-sporda-dark-gray__0729767_pe737131_s5_adobespark (3).png" alt="primera silla">
+                                    </div>
+                                    <div class="cont-info">
+                                        <p class="category">Chair</p>
+                                        <h3>Nyantuy Chair</h3>
+                                        <div class="stars">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                        </div>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <h4><span>$</span>921</h4>
+                                            <button><i class="bi bi-plus-lg"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-product">
+                                    <div class="cont-img">
+                                        <img src="img/sakarias-armchair-black-sporda-dark-gray__0729767_pe737131_s5_adobespark.png" alt="primera silla">
+                                    </div>
+                                    <div class="cont-info">
+                                        <p class="category">Chair</p>
+                                        <h3>Sakarias Armchair</h3>
+                                        <div class="stars">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                        </div>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <h4><span>$</span>392</h4>
+                                            <button><i class="bi bi-plus-lg"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-product">
+                                    <div class="cont-img">
+                                        <img src="img/sakarias-armchair-black-sporda-dark-gray__0729767_pe737131_s5_adobespark.png" alt="primera silla">
+                                    </div>
+                                    <div class="cont-info">
+                                        <p class="category">Chair</p>
+                                        <h3>Sakarias Armchair</h3>
+                                        <div class="stars">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                        </div>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <h4><span>$</span>392</h4>
+                                            <button><i class="bi bi-plus-lg"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-product">
+                                    <div class="cont-img">
+                                        <img src="img/sakarias-armchair-black-sporda-dark-gray__0729767_pe737131_s5_adobespark.png" alt="primera silla">
+                                    </div>
+                                    <div class="cont-info">
+                                        <p class="category">Chair</p>
+                                        <h3>Sakarias Armchair</h3>
+                                        <div class="stars">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                        </div>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <h4><span>$</span>392</h4>
+                                            <button><i class="bi bi-plus-lg"></i>
+                                        </div>
+                                    </div>
+                                </div>                                                                                                                                                                                                
+                            </div>
+                        </div>
                     </div>
             </div>
         </section>
 
+
     </main>
+
     <footer></footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
     <script src="js/main.js"></script>
