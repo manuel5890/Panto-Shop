@@ -224,7 +224,6 @@ header .bag-button .counter-products{
 }
 
 #products .card-product{
-    width: 270px !important;
     margin: 0 15px;
 }
 
@@ -554,6 +553,45 @@ header .bag-button .counter-products{
     color: #0d1b39;
 }
 
+footer{
+    width: 100%;
+    padding: 120px 120px 40px 90px;
+    background: #f7f7f7;
+}
+
+footer .inicio{
+    padding-right: 200px;
+}
+
+footer h2{
+    font-weight: 600;;
+}
+
+footer p{
+    font-weight: 500;
+}
+
+footer h5{
+    font-size: 22px;
+    color: var(--primary-color);
+    font-size: 17px;
+    margin-bottom: 30px;
+}
+
+footer a{
+    display: flex;
+    text-decoration: none;
+    color: var(--dark-color);
+    margin-bottom: 20px;
+}
+
+footer a i{
+    margin-right: 10px;
+}
+
+footer .pie{
+    margin-top: 100px;
+}
 
 
 
@@ -563,6 +601,81 @@ header .bag-button .counter-products{
 /* 6. TABLET */
 /* estilos responsive tablet */
 @media screen  and (min-width:768px) and (max-width:1080px){
+
+header{
+    height: 100vh;
+    width: 100%;
+}
+
+#hero {
+    width: 100%;
+    text-align: center;
+    padding: 90px 100px;
+}
+
+#hero h2{
+    font-size: 50px;
+}
+
+#hero p {
+    color: var(--white-color);
+    font-size: var(--fs-tittle3);
+    padding: 40px 100px;
+}
+
+#choosing-us h2 {
+    margin-bottom: 100px;
+}
+
+#experiences .cont-img img {
+    padding-top: 50px;
+    width: 100%;
+}
+
+#experiences .cont-info h3 {
+    color: var(--primary-color);
+    text-transform: uppercase;
+    font-size: 18px;
+    text-align: center;
+}
+
+#experiences .cont-info h2 {
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--dark-color);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#experiences .cont-info p {
+    padding-right: 1px;
+    line-height: 2.0;
+    text-align: center;
+}
+
+#experiences .cont-img::before{
+    content: "";
+    width: 300px;
+    height: 200px;
+    background: #f7f7f7;
+    position: absolute;
+    z-index: -1;
+    top: -20px;
+    border-radius: 20px;
+}
+
+#experiences .cont-img::after{
+    content: "";
+    width: 420px;
+    height: 150px;
+    background: #f7f7f7;
+    position: absolute;
+    z-index: -1;
+    top: 16%;
+    right: 30%;
+    border-radius: 20px;
+
+
 
 }
 /* 7. SMARTPHONE */
