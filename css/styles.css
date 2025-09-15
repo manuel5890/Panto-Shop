@@ -594,10 +594,6 @@ footer .pie{
 }
 
 
-
-
-
-
 /* 6. TABLET */
 /* estilos responsive tablet */
 @media screen  and (min-width:768px) and (max-width:1080px){
@@ -674,12 +670,190 @@ header{
     top: 16%;
     right: 30%;
     border-radius: 20px;
-
-
-
 }
+
+
 /* 7. SMARTPHONE */
 /* estilos responsive smartphone */
-@media screen  and (min-width:320px) and (max-width:767px){
+@media screen and (max-width: 767px) {
 
+    #hero {
+        padding: 40px 15px;
+    }
+
+    #hero h2 {
+        font-size: 32px;
+        line-height: 1.2;
+    }
+
+    #hero p {
+        padding: 10px 0;
+        font-size: 16px;
+    }
+
+    #hero form {
+        width: 100%;
+    }
+
+    #hero form input {
+        width: 100%;
+    }
+
+    #products {
+        padding: 20px 0;
+        overflow: hidden !important;
+    }
+
+    #products ul {
+        flex-wrap: wrap;
+        width: 100%;
+        gap: 6px;
+        border-radius: 20px;
+        padding: 5px;
+    }
+
+    #products li button {
+        font-size: 14px;
+        padding: 6px 12px;
+    }
+
+    #products .slick-list {
+        overflow: hidden !important;
+        margin: 0 auto;
+    }
+
+    #products .slick-track {
+        display: flex !important;
+        align-items: stretch;
+    }
+
+    #products .slick-arrow {
+        width: 30px;
+        height: 30px;
+        font-size: 14px;
+        top: 45%;
+        background: rgba(255, 255, 255, 0.8);
+        z-index: 10;
+    }
+
+    #products .slick-prev {
+        left: 5px !important;
+    }
+
+    #products .slick-next {
+        right: 5px !important;
+    }
+
+    #products .card-product {
+        width: 95% !important;
+        max-width: 340px;
+        margin: 0 auto 20px;
+        border-radius: 15px;
+        overflow: hidden;
+        box-shadow: 0px 4px 12px rgba(0,0,0,0.08);
+    }
+
+    #products .card-product .cont-img {
+        min-height: 180px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #f3f3f3;
+        padding: 15px 0;
+    }
+
+    #products .cont-img img {
+        width: 120px;
+        height: auto;
+        top: 0;
+        position: relative;
+    }
+
+    #products .cont-info {
+        padding: 15px;
+        text-align: center;
+    }
+
+    #products .cont-info h3 {
+        font-size: 18px;
+        margin: 5px 0;
+    }
+
+    #products .card-product h4 {
+        justify-content: center;
+        font-size: 18px;
+    }
+
+    #products .card-product button {
+        width: 36px;
+        height: 36px;
+        font-size: 18px;
+    }
+
+    #products .slick-arrow {
+        width: 30px;
+        height: 30px;
+        font-size: 14px;
+        top: 40%;
+        background: rgba(255,255,255,0.8);
+    }
+
+    #products .slick-list {
+        padding: 10px 0 !important;
+    }
+    #experiences {
+        padding: 40px 15px;
+    }
+
+    #experiences img {
+        width: 100%;
+    }
+
+    #experiences .cont-info p {
+        padding-right: 0;
+    }
+
+    #materials {
+        padding: 40px 15px;
+    }
+
+    #materials img {
+        width: 100%;
+        max-height: 300px;
+        object-fit: cover;
+        border-radius: 10px;
+        margin-bottom: 20px
+    }
+
+    #materials .cont-info {
+        padding: 20px 0;
+    }
+
+    #materials .cont-info p {
+        padding-right: 0;
+    }
+
+    #reviews {
+        padding: 40px 10px;
+        overflow: hidden !important;
+    }
+
+    #reviews .card-review .cont-info {
+        width: 95%;
+        left: 2.5%;
+    }
+
+    footer {
+        padding: 20px 10px;
+        text-align: center;
+    }
+
+    footer p {
+        padding-right: 0;
+    }
+
+    footer .s a i {
+        padding-right: 10px;
+    }
+    }
 }
